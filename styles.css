@@ -1,0 +1,46 @@
+:root {
+  /* variables */
+  --primary-color: #57d657;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  color: var(--primary-color);
+  margin: 0;
+  padding: 10px;
+  /* background: url(cheesecake.jpg); */
+}
+
+h2,
+p {
+  color: rgb(138, 30, 30);
+}
+
+#main-container {
+  background-color: rgb(13, 167, 116);
+  color: yellow;
+
+  p {
+    color: brown;
+  }
+}
+
+.list-title {
+  color: blue;
+}
+
+.section {
+  margin: 20px;
+  padding: 10px 20px 30px 40px;
+  border: 2px solid blue !important;
+}
+
+.border-img {
+  border-color: black;
+}
+
+.cheesecake-img {
+  width: 300px;
+  border-radius: 30px;
+}
